@@ -1,0 +1,35 @@
+name: test_1
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/assets/
+    - lib/assets/images/
+    - lib/assets/fonts/
+    - assets/
+    - assets/audio/
+
+fonts:
+    - family: AirFactory
+      fonts:
+        - asset: lib/assets/fonts/Air-Factory-Rounded-Light.ttf
+        - asset: lib/assets/fonts/Air-Factory-Rounded-Bold.ttf
+        - asset: lib/assets/fonts/Air-Factory-Rounded-Black.ttf
+        - asset: lib/assets/fonts/Air-Factory-Rounded.ttf
